@@ -1,0 +1,29 @@
+.content_matrices,.content_resultado{
+	margin: 20px 0px 20px 0px;
+}
+.checkbox{
+	-ms-transform: scale(2); /* IE */
+	-moz-transform: scale(2); /* FF */
+	-webkit-transform: scale(2); /* Safari y Chrome */
+	-o-transform: scale(2); /* Opera */
+	margin: 10px;
+}
+fieldset{
+	padding: 10px;
+}
+fieldset legend{
+	font-size: 20px;
+}
+td{
+	padding: 10px;
+	font-size: 16px;
+}
+.btn_eliminar{
+	margin-top: 10px;
+}
+
+/* Contenido */
+.content_variables,.content_operadores,.content_operacion{
+	font-size: 20px;
+	color: #353535;
+}

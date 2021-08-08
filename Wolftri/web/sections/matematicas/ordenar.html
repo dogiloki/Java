@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WOLFTRI > MATEMÁTICAS > ORDENAR</title>
+	<link rel="stylesheet" type="text/css" href="../../styles/header.css">
+	<script type="text/javascript" src="../../scripts/header.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles/ordenar.css">
+	<script type="text/javascript" src="scripts/ordenar.js"></script>
+</head>
+<body>
+
+	<header>
+		<div class="title">ORDENAR</div>
+	</header>
+
+	<nav class="content_navegador">
+		<a href="../../index.html">INICIO </a>>
+		<a href="index.html">MATEMÁTICAS </a>>
+		<a href="">ORDENAR </a>
+	</nav>
+
+	<section class="content">
+		
+		<div class="flex">
+			<input type="text" class="caja" id="caja_add_elemento" placeholder="Elemento (número, palabra, frase)" style="width: 100%;" onkeypress="add_(event)">
+			<button class="btn" style="background: #17b948; color: #f5f5f5; margin-left: 5px;" onclick="add(this)">Agregar</button>
+		</div>
+
+		<main class="content_elementos" id="content_elementos"></main>
+		
+		<div class="flex">
+			<button class="btn" style="background: #ffffff; color: #17b948;" onclick="ordenar(this,'asc')">ASCENDENTE</button>
+			<button class="btn" style="background: #ffffff; color: #17b948; margin: 0px 5px 0px 5px;" onclick="ordenar(this,'desc')">DESCENDENTE</button>
+			<button class="btn" id="vista" style="background: #ffffff; color: #17b948; display: none;" onclick="ordenar(this,'')">[ lista ] VISTA</button>
+		</div>
+
+		<section class="content_elementos_ordenados" id="content_elementos_ordenados"></section>
+
+	</section>
+
+</body>
+</html>

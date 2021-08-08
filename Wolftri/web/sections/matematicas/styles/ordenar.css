@@ -1,0 +1,24 @@
+.content_elementos{
+	width: 100%;
+	height: 50vh;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border: 1px solid #c2c2c2;
+}
+.content_elementos .elemento{
+	list-style: none;
+	padding: 10px;
+	font-size: 20px;
+	color: #353535;
+	box-shadow: 0px 1px #c2c2c2;
+	margin-bottom: 1px;
+}
+.content_elementos_ordenados{
+	width: 100%;
+	height: 300px;
+	padding: 10px;
+	font-size: 20px;
+	overflow: scroll;
+	border: 1px solid #c2c2c2;
+	margin-bottom: 50px;
+}
